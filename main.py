@@ -1,5 +1,4 @@
 import time
-import socketio
 import json
 from tflite_support.task import text
 from flask import Flask, request, jsonify
