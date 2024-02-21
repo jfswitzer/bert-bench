@@ -1,8 +1,6 @@
 import time
 import json
 from tflite_support.task import text
-from flask import Flask, request, jsonify
-from flask_socketio import SocketIO, send, emit
 import csv
 import sys
 import numpy as np 
